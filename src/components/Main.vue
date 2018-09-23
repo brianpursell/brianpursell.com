@@ -1,12 +1,8 @@
 <template>
   <div class="main" v-bind:style="$store.getters.mainStyle">
     <Navbar />
-    <section class="full-section with-nav is-primary"></section>
-    <section id="grey" class="full-section is-secondary"></section>
-    <section id="green" class="full-section is-success"></section>
-    <section id="yellow" class="full-section is-warning"></section>
-    <section id="red" class="full-section is-danger">
-      <ContactForm />
+    <section class="full-section is-secondary">
+      <h1 style="margin:0;padding-top:25%;font-size:60px;text-align:center;">Coming Soon</h1>
     </section>
   </div>
 </template>

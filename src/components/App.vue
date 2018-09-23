@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" style="padding-bottom:0;" class="is-secondary">
     <Slideout />
     <Main />
     <ScrollToTop />
