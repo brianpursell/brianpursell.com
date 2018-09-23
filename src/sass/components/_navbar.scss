@@ -1,0 +1,33 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 4rem;
+  padding-left: .9rem;
+  padding-right: .9rem;
+  margin: inherit;
+}
+
+.navbar .title {
+  h1 {
+    white-space: nowrap;
+    font-size: 1.75rem;
+    margin: 0;
+  }
+
+  flex: 3 0px; 
+}
+.navbar .hamburger {
+  padding: 0;
+  flex: auto 0px;
+}
+
+.nav-menu-items {
+  ul {
+    margin: 0;
+  }
+}

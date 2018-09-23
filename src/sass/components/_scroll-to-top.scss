@@ -1,0 +1,11 @@
+#scroll-to-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+
+  transition: all 0.5s ease;
+
+  border: none;
+  background-color: rgba(250, 250, 250, 0.2);
+  border-radius: .2rem;
+}

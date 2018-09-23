@@ -1,0 +1,10 @@
+.full-section {
+  height: 100%;
+}
+
+.full-section.with-nav {
+  height: calc(100% - #{$navbar-height});
+  height: -o-calc(100% - #{$navbar-height}); 
+  height: -webkit-calc(100% - #{$navbar-height}); 
+  height: -moz-calc(100% - #{$navbar-height});
+}

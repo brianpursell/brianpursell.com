@@ -1,0 +1,9 @@
+.hamburger-inner,
+.hamburger-inner::before, 
+.hamburger-inner::after {
+  background-color: $light
+}
+
+.hamburger:hover {
+  opacity: 1;
+}
