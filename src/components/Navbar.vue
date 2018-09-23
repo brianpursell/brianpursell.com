@@ -4,7 +4,7 @@
       <h1>{{title}}</h1>
     </div>
     <div class="hamburger">
-      <button 
+      <div 
         @click="$store.commit('toggleSlideout')" 
         v-bind:class="$store.getters.navbarStyle" 
         type="button"
@@ -12,7 +12,7 @@
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
         </span>
-      </button>
+      </div>
     </div>
   </nav>
 </template>

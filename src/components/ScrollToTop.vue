@@ -11,6 +11,7 @@ export default {
   data: () => {
     return {
       ScrollToTopStyle: {
+        outline: none,
         opacity: 0
       }
     }

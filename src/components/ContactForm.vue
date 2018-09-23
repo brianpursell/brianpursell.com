@@ -1,21 +1,11 @@
 <template>
-  <form name="contact" method="POST" action="/" netlify>
-    <div class="field">
-      <label class="label">Email</label>
-      <div class="control">
-        <input class="input" type="text" name="email">
-      </div>
-    </div>
-    <div class="field">
-      <label class="label">Message</label>
-      <div class="control">
-        <textarea class="textarea" name="message"></textarea>
-      </div>
-    </div>
+  <form name="contact" method="POST" action="http://localhost:3000/contact" netlify>
+    <label>Email</label>
+    <input type="text" name="email">
+    <label>Message</label>
+    <textarea name="message"></textarea>
     <div data-netlify-recaptcha></div>
-    <div class="control">
-      <button class="button is-primary" type="submit">Submit</button>
-    </div>
+    <button type="submit">Submit</button>
   </form>
 </template>
 
