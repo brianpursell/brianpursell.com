@@ -4,8 +4,7 @@
     <section class="full-section with-nav is-primary"></section>
     <section id="grey" class="full-section is-secondary"></section>
     <section id="green" class="full-section is-success"></section>
-    <section id="yellow" class="full-section is-warning"></section>
-    <section id="red" class="full-section is-danger">
+    <section id="red" class="full-section">
       <ContactForm />
     </section>
   </div>

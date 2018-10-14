@@ -4,15 +4,27 @@
   right: 0;
   bottom: 0;
   z-index: 1;
-  background: $light;
+  // background: $light-grey;
   transition: all 0.5s ease;
 }
 
 .slideout-menu a {
-  color: $dark;
+  display: block;
+  font-size: 1.5rem;
+  color: $light;
   text-decoration: none;
 }
 
 ul {
+  margin-top: 2.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   list-style: none;
 }
+
+li {
+  border-bottom: .1px solid lightgray;
+  line-height: 50px;
+  text-align: center;
+}
+

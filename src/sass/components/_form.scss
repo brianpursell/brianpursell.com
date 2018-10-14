@@ -1,0 +1,32 @@
+form {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0;
+  border: 2px solid lightgray;
+  border-radius: .25rem;
+}
+
+input {
+  height: 2rem;
+}
+
+textarea {
+  height: 4rem;
+}
+
+form button {
+  margin-top: 1rem;
+  padding-left:18px;
+  padding-right:18px;
+  color: $light;
+  font-weight: 400;
+  font-size: 13px;
+  background: $info;
+  height: 2rem;
+  border: none;
+  border-radius: 3px;
+}

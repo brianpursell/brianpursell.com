@@ -1,17 +1,14 @@
 <template>
-  <div class="slideout-menu" v-bind:style="$store.getters.slideoutStyle">
+  <div class="slideout-menu is-secondary" v-bind:style="$store.getters.slideoutStyle">
     <ul>
       <li>
-        <a href="#grey" v-on:click="smoothScroll">grey</a>
+        <a href="#grey" v-on:click="smoothScroll">About</a>
       </li>
       <li>
-        <a href="#green" v-on:click="smoothScroll">green</a>
+        <a href="#green" v-on:click="smoothScroll">Projects</a>
       </li>
       <li>
-        <a href="#yellow" v-on:click="smoothScroll">yellow</a>
-      </li>
-      <li>
-        <a href="#red" v-on:click="smoothScroll">red</a>
+        <a href="#red" v-on:click="smoothScroll">Contact</a>
       </li>
     </ul>
   </div>
